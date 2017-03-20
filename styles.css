@@ -1,3 +1,62 @@
+#top-nav {
+   width: 100%;
+}
+
+#top-nav ul{
+  text-align: right;
+}
+
+#top-nav ul li{
+  list-style: none;
+  display: inline;
+}
+
+#top-nav ul li a {
+  text-decoration: none;
+  color: #4f4f4f;
+}
+
 #options{
  background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+}
+
+#main-body{
+  width: 510px;
+  margin: 0 auto;
+}
+
+.search-button{
+}
+
+#search-field{
+  display: block;
+}
+
+#bot-nav {
+   width: 100%;
+}
+
+#bot-nav ul{
+  text-align: right;
+}
+
+#bot-nav ul li{
+  list-style: none;
+  display: inline;
+}
+
+#bot-nav ul li a {
+  text-decoration: none;
+  color: #4f4f4f;
+}
+
+#bot-nav-left {
+  text-align: left;
+  display: inline;
+}
+
+#bot-nav-right {
+  text-align: right;
+  display: inline;
+  width: 100%;
 }
