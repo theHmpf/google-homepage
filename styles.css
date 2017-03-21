@@ -1,9 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;;
+}
+
 #top-nav {
    width: 100%;
+   background-color: none;
 }
 
 #top-nav ul{
   text-align: right;
+  padding: 1em 2em;
 }
 
 #top-nav ul li{
@@ -14,10 +22,27 @@
 #top-nav ul li a {
   text-decoration: none;
   color: #4f4f4f;
+  padding: 5px 10px;
+  font-size: 0.9em;
+  color: rgb(84, 84, 84);
+}
+
+#top-nav ul li a:hover {
+  text-decoration: underline;
+  color: black;
 }
 
 #options{
  background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+}
+
+#login{
+  background-color: rgba(6, 139, 224, 0.87);
+  border: 0;
+  padding: 0.8em 1em;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
 }
 
 #main-body{
@@ -28,16 +53,49 @@
 .search-button{
 }
 
+#search-form{
+  text-align: center;
+}
+
 #search-field{
   display: block;
+  margin: 2em 0;
+  width: 100%;
+  padding: 0.8em 0.5em;
+  border: none;
+  box-shadow: 1px 1px 10px grey;
+}
+
+input[type=submit]{
+  padding: 10px 15px;
+  border: none;
+  font-weight: bold;
+  color: rgb(94, 94, 94);
+  border-radius: 3px;
+  margin: 0 0.3em;
+}
+
+input[type=submit]:hover {
+  color: black;
+  padding: 8px 13px;
+  border: 1px solid rgb(56, 56, 56);
 }
 
 #bot-nav {
    width: 100%;
+   position: fixed;
+   bottom: 0;
+   height: 50px;
+   line-height: 50px;
+
+
+   background-color: rgb(242, 242, 242);
+   border-top: 1px solid rgb(82, 82, 82);
 }
 
 #bot-nav ul{
   text-align: right;
+  padding-left: 1em;
 }
 
 #bot-nav ul li{
@@ -47,7 +105,9 @@
 
 #bot-nav ul li a {
   text-decoration: none;
-  color: #4f4f4f;
+  color: rgb(106, 105, 105);
+  font-size: 0.85em;
+  margin-right: 0.8em;
 }
 
 #bot-nav-left {
@@ -56,7 +116,9 @@
 }
 
 #bot-nav-right {
-  text-align: right;
+  position: fixed;
+  right: 0;
+  bottom: 0;
   display: inline;
   width: 100%;
 }
